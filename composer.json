@@ -1,0 +1,32 @@
+{
+    "name": "kablanfatih/encryption",
+    "description": "A package for automatically encrypting and decrypting Eloquent attributes in Laravel , based on configuration settings.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kablanfatih",
+            "email": "kablanfatih34@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "kablanfatih\\encryption\\": "../encryption"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "kablanfatih\\encryption\\": "../encryption/",
+            "Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encryption\\src\\EncryptableServiceProvider"
+            ]
+        }
+    }
+}
