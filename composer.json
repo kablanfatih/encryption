@@ -31,5 +31,8 @@
                 "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2@dev"
     }
 }
