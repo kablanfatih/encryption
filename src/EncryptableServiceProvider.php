@@ -24,7 +24,7 @@ class EncryptableServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../src/config/encryption.php' => config_path('encryption.php'),
+            __DIR__ . '/../config/encryption.php' => config_path('encryption.php'),
         ]);
     }
 }
