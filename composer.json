@@ -13,12 +13,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "kablanfatih\\encryption\\": "../encryption"
+            "Encryption\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kablanfatih\\encryption\\": "../encryption/",
+            "Encryption\\": "src/",
             "Tests\\": "tests"
         }
     },
