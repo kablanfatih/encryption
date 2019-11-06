@@ -24,8 +24,7 @@ or
 
 Use the Encryptable trait in any Eloquent model that you wish to apply encryption to and define a protected $encrypted array containing a list of the attributes to encrypt.
 
-`<?php
- 
+```
  namespace App\Models;
  
  use Encryption\src\Encryptable;
@@ -59,4 +58,4 @@ Use the Encryptable trait in any Eloquent model that you wish to apply encryptio
          'question','answer'
      ];
  }
-`
+``
