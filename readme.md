@@ -12,7 +12,7 @@ simply setting the the DB_ENCRYPTION_ENABLED environment variable to true, via t
 
 `DB_ENCRYPTION_ENABLED=true`
 
-##### !!! If package not found !!!
+##### !!! If package not work !!!
 
 Via Artisan command line:
 
