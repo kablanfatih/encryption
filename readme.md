@@ -58,4 +58,3 @@ Use the Encryptable trait in any Eloquent model that you wish to apply encryptio
          'question','answer'
      ];
  }
-``

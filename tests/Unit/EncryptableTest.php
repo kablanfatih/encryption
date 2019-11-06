@@ -9,8 +9,8 @@ use Tests\TestCase;
 class EncryptableTest extends TestCase
 {
 
-    public function testIsJson()
+    public function test()
     {
-
+        self::assertTrue(true);
     }
 }
