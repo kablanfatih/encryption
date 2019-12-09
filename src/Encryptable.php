@@ -12,7 +12,7 @@ trait Encryptable
      * @param $json
      * @return bool
      */
-    public function isJson($json): bool
+    public function ifJson($json): bool
     {
         $ob = json_decode($json);
 
@@ -29,7 +29,7 @@ trait Encryptable
     {
         $decrypt = $this->decryptValue($value);
 
-        if (!is_array($decrypt) && $this->isJson($decrypt))
+        if (!is_array($decrypt) && $this->ifJson($decrypt))
             $decrypt = json_decode($decrypt);
 
         return $decrypt;
