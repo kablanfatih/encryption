@@ -1,6 +1,6 @@
 <?php
 
-namespace Encryption\src;
+namespace Kablanfatih\Encryption;
 
 use Illuminate\Support\Facades\Crypt;
 
@@ -12,7 +12,7 @@ trait Encryptable
      * @param $json
      * @return bool
      */
-    public function ifJson($json): bool
+    public function is_json($json): bool
     {
         $ob = json_decode($json);
 
@@ -29,7 +29,7 @@ trait Encryptable
     {
         $decrypt = $this->decryptValue($value);
 
-        if (!is_array($decrypt) && $this->ifJson($decrypt))
+        if (!is_array($decrypt) && $this->is_json($decrypt))
             $decrypt = json_decode($decrypt);
 
         return $decrypt;

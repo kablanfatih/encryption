@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'encrypt' => env('DB_ENCRYPTION', false),
+    'encrypt' => env('DB_ENCRYPTION', true),
 ];
