@@ -24,6 +24,7 @@
     </filter>
     <php>
         <env name="APP_KEY" value="base64:tDs64eeE5+PPzLvmZCcBdQqNY4UpxC6uked764On3UY="/>
-        <env name="DB_CONNECTION" value="mysql-testing"/>
+        <env name="DB_CONNECTION" value="sqlite"/>
+        <env name="DB_DATABASE" value=":memory:"/>
     </php>
 </phpunit>

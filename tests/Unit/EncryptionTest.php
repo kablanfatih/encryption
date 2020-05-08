@@ -1,19 +1,20 @@
 <?php
 
-namespace Kablanfatih\Encryption\tests\Unit;
+namespace Kablanfatih\Encryption\Unit;
 
 use Kablanfatih\Encryption\Encryptable;
 use Illuminate\Support\Facades\Crypt;
 use Kablanfatih\Encryption\Providers\EncryptableServiceProvider;
 use Orchestra\Testbench\TestCase;
 
-class EncryptableTest extends TestCase
+class EncryptionTest extends TestCase
 {
     use Encryptable;
 
     protected function setUp(): void
     {
         parent::setUp();
+        config(['encryption.encrypt' => true]);
         $this->app->register(EncryptableServiceProvider::class);
     }
 
