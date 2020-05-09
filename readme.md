@@ -1,3 +1,7 @@
+#encryption
+
+![PHP Composer](https://github.com/kablanfatih/encryption/workflows/PHP%20Composer/badge.svg)
+
 #### A package for automatically encrypting and decrypting Eloquent attributes in Laravel , based on configuration settings.
 
 ### Installation

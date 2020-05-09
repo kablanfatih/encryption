@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06866e1d0f18a7e78806fbd632f3ea5b",
+    "content-hash": "e8f76ce09ce8bf513af286e83a1b8a3e",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "ab5de36233a1995f9c776c741b803eb8207aebef"
+                "reference": "533233f01542d13e972e7ca0a87a9768cb4ef9d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/ab5de36233a1995f9c776c741b803eb8207aebef",
-                "reference": "ab5de36233a1995f9c776c741b803eb8207aebef",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/533233f01542d13e972e7ca0a87a9768cb4ef9d9",
+                "reference": "533233f01542d13e972e7ca0a87a9768cb4ef9d9",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                 "uppercase",
                 "words"
             ],
-            "time": "2020-05-06T11:01:57+00:00"
+            "time": "2020-05-09T14:10:50+00:00"
         },
         {
             "name": "doctrine/lexer",
