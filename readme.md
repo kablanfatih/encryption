@@ -1,6 +1,9 @@
-#encryption
+# encryption
 
 ![PHP Composer](https://github.com/kablanfatih/encryption/workflows/PHP%20Composer/badge.svg)
+<a href="https://packagist.org/packages/kablanfatih/encryption"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/kablanfatih/encryption"></a>
+<a href="https://packagist.org/packages/kablanfatih/encryption"><img alt="Packagist Version" src="https://img.shields.io/packagist/v/kablanfatih/encryption"></a>
+
 
 #### A package for automatically encrypting and decrypting Eloquent attributes in Laravel , based on configuration settings.
 
@@ -14,7 +17,7 @@ Via Composer command line:
 
 simply setting the the DB_ENCRYPTION_ENABLED environment variable to true, via the Laravel .env file or hosting environment.
 
-`DB_ENCRYPTION_ENABLED=true`
+`DB_ENCRYPTION=true`
 
 ##### !!! If package not work !!!
 
